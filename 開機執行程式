@@ -1,4 +1,4 @@
-設定開機啟動程序(Windows):執行>shell:Common Startup>把想執行的程式碼放入資料夾
+設定開機啟動程序(Windows):執行>shell:Common Startup>把想執行的程式碼放入資料夾(可以放捷徑)
 
 raw_input()
 等於
