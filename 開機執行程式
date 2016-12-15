@@ -1,0 +1,6 @@
+設定開機啟動程序(Windows):執行>shell:Common Startup>把想執行的程式碼放入資料夾
+
+raw_input()
+等於
+import os
+os.system("pause")
