@@ -1,0 +1,13 @@
+  PyOpenGL
+  PIL
+  windows 開機程式 (之後可研究其他平台)
+    產生可執行檔(.exe)use py2exe?
+  用PythonWin 撰寫 GUI(MFC, tkinter, wxPython, PyGTK, PyQT)
+  Python 與資料庫(MySQL,嵌入式資料庫SQLite)
+  Python Web 應用
+  Python 網路程式設計(socket...,傳輸檔案, 收發email)
+  處理HTML, XML(撰寫簡單的RSS閱讀器)
+  多執行緒
+  
+  爬蟲???
+  
