@@ -1,2 +1,3 @@
 Data type
-  字典(DICtionary)    <font color="green">{Key: Value}<font>
+  字典(DICtionary)    {Key: Value}    可以尋找字典中是否存在你需要的key(key in dic)
+                                     做任何事都要經過key!
