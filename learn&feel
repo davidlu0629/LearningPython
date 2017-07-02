@@ -1,0 +1,10 @@
+1. Data type
+  字典(DICtionary)    {Key: Value}    可以尋找字典中是否存在你需要的key(key in dic)  呼叫: dic[key]  刪除: del dic[key] 加入: 直覺
+                                     做任何事都要經過key!
+
+  List   [1, 3, 'abc', 7, "july"]    用[]括起來，內部資料型態不限制，位置計量方式與陣列相同
+
+2. [x, y]
+  在python中表示從第x到第y-1的陣列
+  
+  
