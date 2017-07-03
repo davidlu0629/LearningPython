@@ -21,7 +21,7 @@
     ...
     (return a)
     
-5. 類別class
+5. 類別class  #__init__
   class class_name:
     class_object
     def method_name(self):
