@@ -7,4 +7,30 @@
 2. [x, y]
   在python中表示從第x到第y-1的陣列
   
+3. for迴圈、while
+  for i in range(10, 0, -1):    #從10開始每一次降1降到0為止，0沒有跳到
+    print(i)
   
+  i=10
+  while i>0:
+    print(i)
+    i-=1
+    
+4. 函數function
+  def function_name(paragraph list):
+    ...
+    (return a)
+    
+5. 類別class
+  class class_name:
+    class_object
+    def method_name(self):
+      self.instance
+      ...
+  ex. class test:
+        def test1(self, a=10, b=20):    #self: 預設參數
+          self.a=a
+          self.b=b
+          
+        def do_something(self):
+          return self.a+self.b
