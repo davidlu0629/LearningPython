@@ -34,3 +34,10 @@
           
         def do_something(self):
           return self.a+self.b
+          
+6. import // import, import as, from import  ex. 同路徑下count.py
+  import count
+  import count as cnt #以後用cnt呼叫count.py的內容
+  from count import count_it #count_it 是count.py的函式
+  
+  
