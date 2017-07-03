@@ -40,6 +40,6 @@
   import count as cnt #以後用cnt呼叫count.py的內容
   from count import count_it #count_it 是count.py的函式
   
-7. 套件: 目錄中放一個__init__.py檔，會是該目錄為一個套件  
+7. 套件: 目錄中放一個__init__.py檔，會視該目錄為一個套件，通常，__init__.py會是一個空白檔案  
   
   
