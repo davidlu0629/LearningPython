@@ -28,7 +28,7 @@
       self.instance
       ...
   ex. class test:
-        def test1(self, a=10, b=20):    #self: 預設參數
+        def test1(self, a=10, b=20):    #self: 預設參數 self變數屬於類別
           self.a=a
           self.b=b
           
