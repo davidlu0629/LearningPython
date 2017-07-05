@@ -42,4 +42,19 @@
   
 7. 套件: 目錄中放一個__init__.py檔，會視該目錄為一個套件，通常，__init__.py會是一個空白檔案  
   
-8. super繼承  
+8. super繼承: 當繼承對象改變時，需要改變的地方也變少，很方便
+class a(object):
+    def __init__(self):
+        self.a=10
+        print "from class a"
+        
+class b(a):
+    def __init__(self):
+        super(b, self).__init__()
+        print "from class b"
+        print self.a
+
+b()
+output: from class a
+        from class b
+        10
