@@ -8,6 +8,8 @@ Python網路爬蟲
   建置opencv環境時會遇到的問題 (fopen): http://jingyan.baidu.com/album/ce436649fd61543773afd32e.html?picindex=3
   opencv on ubuntu>>>http://hanmajor.blogspot.tw/2013/10/linux-ubuntu-opencv.html
   
-  python 編輯器
+  python 互動式編輯器
   : https://www.continuum.io/downloads#linux
+  >>>conda
+  >>>jupyter notebook
   
