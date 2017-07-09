@@ -21,7 +21,7 @@
     ...
     (return a)
     
-5. 類別class  #__init__
+5. 類別class  #__init__  創造出類別的實例後可以'增加'、'變更'、'刪除(del)'變數或函式
   class class_name:
     class_object
     def method_name(self):
@@ -34,6 +34,19 @@
           
         def do_something(self):
           return self.a+self.b
+          
+      print test.__doc__
+      print test.__name__
+      print test.__module__
+      print test.__bases__
+      print test.__dict__
+      
+  output:
+  None
+  test
+  __main__
+  ()
+  {'test1': <function test1 at 0x7f217fef95f0>, '__module__': '__main__', 'do_something': <function do_something at 0x7f217fef9668>, '__doc__': None}
           
 6. import // import, import as, from import  ex. 同路徑下count.py
   import count
