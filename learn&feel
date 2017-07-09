@@ -58,3 +58,32 @@ b()
 output: from class a
         from class b
         10
+
+9. self在類別中當類別的區域變數，而一般在類別中宣告地的變數則是全域變數
+ex.
+class a(object):
+    count=0
+    g=6
+    def __init__(self):
+        self.app=10
+        a.count+=1
+        print a.count
+    
+    def dd(self):
+        print "dd in a"
+        self.app+=1
+        print self.app
+
+b=a()
+c=a()
+b.dd()
+c.dd()
+
+output:
+1
+2
+dd in a
+11
+dd in a
+11
+
