@@ -10,5 +10,7 @@
 #### Tuples 
     t = (1,2,3)
     t[0]
-> 1t[0] = 'NEW' 
+> 1  
+
+    t[0] = 'NEW' 
 > error, tuples 無法改變    
