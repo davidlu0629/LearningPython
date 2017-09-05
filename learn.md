@@ -72,5 +72,12 @@
     my_func('new param')
 > new param 
 
+#### map() function 
+    def times2(var): 
+        return var*2
+    seq = [1, 2, 3, 4, 5] 
+    list(map(times2,seq)) 
+> [2, 4, 6, 8, 10] 
+
 
 
