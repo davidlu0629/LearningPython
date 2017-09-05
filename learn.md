@@ -46,6 +46,30 @@
         print(x) 
 > 向上上個結果, 只是變成0~4 
 
+#### list comprehension 
+    x = [1,2,3,4] 
+    out = [] 
+    for item in x: 
+        out.append(item**2)
+    print(out) 
+> [1, 4, 9, 16] 
+
+#### Special list 
+    x = [1, 2, 3, 4]
+    out=[num**2 for num in x]
+> [1, 4, 9, 16] 
+
+#### functions 
+    def my_func(param1='default'):
+        """
+        DOCSTRING GOES HERE.
+        """ 
+        print(param1)
+    my_func() 
+> default 
+
+    my_func('new param')
+> new param 
 
 
 
