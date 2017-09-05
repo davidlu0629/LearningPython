@@ -24,5 +24,19 @@
     s.add(5) 
 > {1,2,3,5} 
 
+#### for Loops 
+    seq = [1,2,3,4,5] 
+    for item in seq: 
+        print(item) 
+> 1 
+
+> 2 
+
+> 3 
+
+> 4 
+
+> 5 
+
 
 
