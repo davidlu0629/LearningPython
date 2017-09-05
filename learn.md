@@ -44,7 +44,7 @@
 
     for x in range(0,5):
         print(x) 
-> 向上上個結果, 只是變成0~4 
+> 像上上個結果, 只是變成0~4 
 
 #### list comprehension 
     x = [1,2,3,4] 
@@ -82,7 +82,7 @@
 #### lambda expressions 
     def times2(var): 
         return var*2 
-        ||
+        || equal
     t = lambda var: var*2
     t(6) 
 > 12 
@@ -90,6 +90,13 @@
     seq = [1, 2, 3, 4, 5] 
     list(map(lambda var: var*3, seq)) 
 > [3, 6, 9, 12, 15] 
+
+#### filter() function 
+    seq = [1, 2, 3, 4, 5]
+    list(filter (lambda var: var%2 == 0, seq))
+> [2, 4] 
+
+
 
 
     
