@@ -79,5 +79,18 @@
     list(map(times2,seq)) 
 > [2, 4, 6, 8, 10] 
 
+#### lambda expressions 
+    def times2(var): 
+        return var*2 
+        ||
+    t = lambda var: var*2
+    t(6) 
+> 12 
 
+    seq = [1, 2, 3, 4, 5] 
+    list(map(lambda var: var*3, seq)) 
+> [3, 6, 9, 12, 15] 
+
+
+    
 
