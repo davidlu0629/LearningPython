@@ -20,4 +20,8 @@ numpy
     將矩陣切割     
     ex. arr 是一個0~24組成的矩陣    
     arr.reshape(5, 5) 可以得到一個5*5的矩陣     
+
+#### 注意,numpy中的array是用位置傳值   
+    所以要使用arr_copy = arr.copy()來解決  
+    
      
