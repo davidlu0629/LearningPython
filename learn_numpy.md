@@ -32,5 +32,9 @@ numpy
 
 #### 注意,numpy中的array是用位置傳值   
     所以要使用arr_copy = arr.copy()來解決  
+#### arr=[1, 2, 3, 4, 5], arr[arr>3]  
+> array([4, 5])  
+
+
     
      
