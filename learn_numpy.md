@@ -17,7 +17,7 @@ numpy
 #### np.eye(4) 
     4*4的單位矩陣 
 #### np.random.rand(5) 
-    隨機5個0~1的福點數組成的array 
+    隨機5個0~1的浮點數組成的array 
 #### np.random.randn(4, 4) 
     4*4 以0為中心點的高斯分布函數 分布在-1~1 
     
