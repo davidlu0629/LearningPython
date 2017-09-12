@@ -34,9 +34,13 @@ pandas
     ex. df['W'] or want to see more than one column df[['W','X']]  
 # add new column  
     ex. df['new']=df['W']+df['X']  
-# remove columns, drop function, axis=0(row), axis=1(column)  
-    df.drop('new' , axis=1)  
+# remove columns, drop function, axis=0(row), axis=1(column) , inplace(default is false)(是否取代)   
+    df.drop('new' , axis=1, implace=True)  
 # 選擇row, loc or iloc  
     ex. df.loc['A']  
-        df.iloc[0]  
-        
+        df.iloc[0]  
+# 聯合選取,一定要用&跟|  
+    df[(df['W']>0) & (df['Y']>1)]  
+    #符合上面兩個條件的row就會被顯示出來  
+# plus original index
+    
