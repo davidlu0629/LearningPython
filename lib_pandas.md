@@ -38,7 +38,7 @@ pandas
     df.drop('new' , axis=1, implace=True)  
 # 選擇row, loc or iloc  
     ex. df.loc['A']  
-        df.iloc[0]  
+    df.iloc[0]  
 # 聯合選取,一定要用&跟|  
     df[(df['W']>0) & (df['Y']>1)]  
     #符合上面兩個條件的row就會被顯示出來  
