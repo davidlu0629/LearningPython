@@ -43,6 +43,9 @@ pandas
     df[(df['W']>0) & (df['Y']>1)]  
     #符合上面兩個條件的row就會被顯示出來  
 # plus original index (reset_index())  
+    sta="Taiwan USA Japan China Korea".split()
+    df['States']=sta  
+    can change index, use: set_index('States'), 有點像變成Series之後才能加入表格    
     
-    can change index, use: set_index('States')
+    
     
