@@ -42,5 +42,7 @@ pandas
 # 聯合選取,一定要用&跟|  
     df[(df['W']>0) & (df['Y']>1)]  
     #符合上面兩個條件的row就會被顯示出來  
-# plus original index
+# plus original index (reset_index())  
+    
+    can change index, use: set_index('States')
     
