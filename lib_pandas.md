@@ -45,7 +45,13 @@ pandas
 # plus original index (reset_index())  
     sta="Taiwan USA Japan China Korea".split()
     df['States']=sta  
-    can change index, use: set_index('States'), 有點像變成Series之後才能加入表格    
+    can change index, use: set_index('States'), 有點像變成Series之後才能加入表格       
+# Multi-Index and Index Hierarchy  
+    outside=['G1', 'G1', 'G1', 'G2', 'G2', 'G2']  
+    inside= [1, 2, 3, 1, 2, 3]  
+    hier_index= list(zip(outside, inside))  
+    hier_index= pd.MultiIndex.from_tuples(hier_index)  
+    df= pd.DataFrame(np.random.randn(6, 2), index=hier_index, columns=['A', 'B'])
     
     
     
