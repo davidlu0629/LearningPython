@@ -51,7 +51,11 @@ pandas
     inside= [1, 2, 3, 1, 2, 3]  
     hier_index= list(zip(outside, inside))  
     hier_index= pd.MultiIndex.from_tuples(hier_index)  
-    df= pd.DataFrame(np.random.randn(6, 2), index=hier_index, columns=['A', 'B'])
+    df= pd.DataFrame(np.random.randn(6, 2), index=hier_index, columns=['A', 'B'])  
+# dropna, fillna (對NAN值做處理)  
+# groupby (將值統整)  
+
+
     
     
     
