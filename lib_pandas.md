@@ -54,7 +54,7 @@ pandas
     df= pd.DataFrame(np.random.randn(6, 2), index=hier_index, columns=['A', 'B'])  
 # dropna, fillna (對NAN值做處理)  
 # groupby (將值統整)    
-# concatenation  
+# concatenation, pd.concat([df, df, df], axis=)  
     ex. df1, df2, df3  
     pd.concat([df1, df2, df3])  
     
