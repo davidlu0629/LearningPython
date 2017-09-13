@@ -57,6 +57,9 @@ pandas
 # concatenation, pd.concat([df, df, df], axis=)  
     ex. df1, df2, df3  
     pd.concat([df1, df2, df3])  
+# 將DataFrame組合起來 pd.merge , pd.join  
+    
+    
     
 
 
