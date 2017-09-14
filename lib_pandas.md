@@ -58,7 +58,10 @@ pandas
     ex. df1, df2, df3  
     pd.concat([df1, df2, df3])  
 # 將DataFrame組合起來 pd.merge , pd.join  
-    
+# 將function 讓DataFrame代入    
+    ex. def times2(x):
+            return x*2
+        df['col1'].apply(times2)    
     
     
 
