@@ -33,7 +33,10 @@ pandas
 # dataframe can easily let user to see their column data  
     ex. df['W'] or want to see more than one column df[['W','X']]  
 # add new column  
-    ex. df['new']=df['W']+df['X']  
+    ex. df['new']=df['W']+df['X']   
+# 看所有columns或index的名字   
+    ex. data= pd.DataFrame()  
+    data.columns.values or data.index.values  
 # remove columns, drop function, axis=0(row), axis=1(column) , inplace(default is false)(是否取代)   
     df.drop('new' , axis=1, implace=True)  
 # 選擇row, loc or iloc  
