@@ -65,7 +65,11 @@ pandas
     ex. def times2(x):
             return x*2
         df['col1'].apply(times2)    
-    
+# column 中資料元素統計 use .value_counts()    
+    ex. ecom['AM or PM'].value_counts()  
+    output:    
+    PM    5068    
+    AM    4932     
     
 
 
