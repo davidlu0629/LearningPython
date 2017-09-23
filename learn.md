@@ -2,7 +2,7 @@
     print('My number is: {one}, and my name is: {two}'.format(one=num,two=name))
 > output: My number is: 12, and my name is: Sam 
 
-#### Dictionaries 
+#### Dictionaries, dic.index can get dic's index   
     d = {'key1':'item1','key2':'item2'}
     d['key1']
 > 'item1'    
